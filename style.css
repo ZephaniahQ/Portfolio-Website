@@ -151,6 +151,11 @@ nav ul li a:hover{
     right: 0;
     border-radius: 3px 0 0 3px;
   }
+
+  .prev{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
@@ -197,7 +202,7 @@ nav ul li a:hover{
   }
 
   .slider h4{
-    
+
   }
   
   @keyframes fade {
@@ -205,7 +210,7 @@ nav ul li a:hover{
     to {opacity: 1}
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .row {
         display: grid;
         gap: 20px
