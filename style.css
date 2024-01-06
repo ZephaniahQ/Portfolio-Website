@@ -210,7 +210,7 @@ nav ul li a:hover{
     to {opacity: 1}
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .row {
         display: grid;
         gap: 20px
