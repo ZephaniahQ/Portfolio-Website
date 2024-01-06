@@ -200,10 +200,6 @@ nav ul li a:hover{
     display: flex;
     flex-direction: row;
   }
-
-  .slider h4{
-
-  }
   
   @keyframes fade {
     from {opacity: .4}
