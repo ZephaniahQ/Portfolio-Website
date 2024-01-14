@@ -327,9 +327,27 @@ nav ul li a:hover{
         padding: none;
     }
 
+
+
+    .blog-buttons li a{
+      color: white;
+      font-size: auto;
+    }
+
+    .blognav{
+      visibility: visible;
+    }
+
     .nav-overlay {
-      height: 50px; /* Adjust the height for smaller screens */
-  }
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: fit-content; /* Adjust the height of your navigation bar */
+      background-color: black; /* Set the background color of the navigation bar */
+      color: white;
+      position: relative;
+      z-index: 3; /* Higher z-index than the iframe */
+    }
 
     .text-col, .pic-col{
       width: 70%;
