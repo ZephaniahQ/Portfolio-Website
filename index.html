@@ -14,28 +14,34 @@
             <h1>Zephaniah's Portfolio Website</h1>
         <nav>
             <ul>
-                <li><a href="#" style="color: #ae2012;">Home</a></li>
+                <li><a href="index.html" style="color: #ae2012;">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="#">About me</a></li>
-                <li><a href="#">Projects</a></li>
             </ul>
         </nav>
         <img src="pics/menu.svg" class="menu-icon">
-        </div>
+    </div>
         <div class="row">
             <div class="col-1">
                 <h2>Welcome to my<br>Portfolio</h2>
                 <h3>My name is Zephaniah Qamar</h3>
                 <p>I am an aspiring astrophysicist and machine learning<br>reseracher</p>
                 <br>
-                <button type="button" class="button1">Know more</button>
-                <button type="button" class="button2">See projects</button>
+                <div class="button-container">
+                  <form action="#">
+                    <input type="submit" class="button1" value="Know more">
+                  </form>
+                  <form action="projects.html">
+                    <input type="submit" class="button2" value="See projects">
+                  </form> 
+                </div>
             </div>
             <div class="col-2">
-                <div class="slideshow-container">
+                  <div class="slideshow-container">
                     <!-- Full-width images with number and caption text -->
                     <div class="mySlides fade">
                       <div class="numbertext">1 / 7</div>
-                      <img src="pics/arduino2.jpg" style="width:100%">
+                      <img src="pics/arduino2.jpg">
                       <div class="text">Arduino</div>
                     </div>
                   
@@ -58,16 +64,16 @@
                     </div>
 
                     <div class="mySlides fade">
-                        <div class="numbertext">4 / 7<br></div>
-                        <img src="pics/scraping.png">
-                        <div class="text">Scraping</div>
-                      </div>
+                      <div class="numbertext">4 / 7<br></div>
+                      <img src="pics/scraping.png">
+                      <div class="text">Scraping</div>
+                    </div>
 
                     <div class="mySlides fade">
-                        <div class="numbertext">6 / 7</div>
-                        <img src="pics/Pc.png">
-                        <div class="text">PC hardware</div>
-                      </div>
+                      <div class="numbertext">6 / 7</div>
+                      <img src="pics/Pc.png">
+                      <div class="text">PC hardware</div>
+                    </div>
                   
                     <div class="mySlides fade">
                       <div class="numbertext">7 / 7</div>
@@ -75,18 +81,17 @@
                       <div class="text">Vita modding</div>
                     </div>
 
-                    <!-- Next and previous buttons -->
+                    <!-- Next and previous buttons
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    --->
                   </div>
                   <br>
                   <div class="slider">
                     <h3>Projects</h3>
                   </div>
             </div>
-        </div>
-            
-        </div>
+        </div>      
     </div>
 </body>
 </html>
